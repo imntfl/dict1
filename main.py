@@ -16,13 +16,13 @@ root.geometry("777x333")
 message = StringVar()
  
 entry = Entry(textvariable=message)
-entry.place(relx=.5, rely=.1, anchor="c")
+entry.place(relx=.5, rely=.2, anchor="c")
  
 button = Button(text="Сохранить", command=click)
-button.place(relx=.4, rely=.4, anchor="c")
+button.place(relx=.5, rely=.5, anchor="c")
  
 exit = Button(root, text='Выход', command=root.destroy)
-exit.place(relx=.10, rely=.10, anchor="c")
+exit.place(relx=.5, rely=.8, anchor="c")
 
 
 root.mainloop()
